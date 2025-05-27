@@ -1,0 +1,11 @@
+streamlit
+langchain
+tensorflow
+scikit-learn
+pandas
+numpy
+python-dotenv
+smtplib
+email-validator
+langchain-google-genai
+os

@@ -1,0 +1,4 @@
+machine_id,anomaly_time,technician_id,technician_name,technician_email,location,scheduled_start,scheduled_end
+Machine_1,2025-03-01 01:00:00,114,Rohan Mehta,rangamrammohan123@gmail.com,Mumbai,2025-03-01 01:00:00,2025-03-01 03:00:00
+Machine_1,2025-03-01 01:30:00,108,Vijay Kumar,rangamrammohan123@gmail.com,Noida,2025-03-01 01:30:00,2025-03-01 03:30:00
+Machine_1,2025-03-01 19:00:00,58,Vivek Sharma,rangamrammohan123@gmail.com,Hyderabad,2025-03-01 19:00:00,2025-03-01 21:00:00
