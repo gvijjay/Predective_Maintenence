@@ -10,7 +10,7 @@ Enable users to upload sensor data and interact via natural language to:
 
 2.Schedule technicians
 
-3.Notify via email
+3.Notify via email i.e email and whatsapp
 
 
 
@@ -22,7 +22,7 @@ These are the features that we have implemented in our project:
 
 - 📈 Time-series anomaly detection with LSTM Autoencoders
 
-- 📤 Email alerts for anomalies
+- 📤 Email alerts for anomalies and whatsapp messages for alerts
 
 - 🔁 Conversational memory for contextual 
 
@@ -40,6 +40,8 @@ These are the features that we have implemented in our project:
 - SMTP for email alerts
 
 - dotenv for environment management
+
+- twilio for sending the whatsapp notifications
 
 ## 🚀 Installation
 The below are the steps that you have to follow to install the project.
@@ -123,6 +125,8 @@ Logic:
 
   - Skips if no technician or duplicate
 
+  - sends both email notification and the whatsapp notification.
+
 
 
 ## 🖥️ Streamlit Integration
@@ -135,7 +139,7 @@ Logic:
 
     "schedule", "availability" → Scheduler
 
-    "email", "alert" → Alert
+    "email","whatsapp", "alert" → Alert
 
 - Memory is enabled `(ConversationBufferMemory)` to maintain chat history
 
