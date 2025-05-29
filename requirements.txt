@@ -9,3 +9,4 @@ smtplib
 email-validator
 langchain-google-genai
 os
+twilio
